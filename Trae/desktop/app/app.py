@@ -30,9 +30,11 @@ class EiraApp:
     """Main application class for Eira desktop client."""
 
     def __init__(self):
+        self.loop: Optional[asyncio.AbstractEventLoop] = None
         self.db = Database(
             db_path=settings.DB_PATH,
             api_url=settings.API_URL,
+            loop=self.loop,
         )
         self.api_client = APIClient(base_url=settings.API_URL)
         self.network_manager = NetworkManager(
@@ -123,7 +125,10 @@ class EiraApp:
 
         # If coming online and we have a token, start sync
         if is_online and self.auth_token:
-            asyncio.create_task(self.db.sync())
+            if self.loop:
+                asyncio.run_coroutine_threadsafe(self.db.sync(), self.loop)
+            else:
+                asyncio.create_task(self.db.sync())
             self.db.start_auto_sync()
         elif not is_online:
             self.db.stop_auto_sync()

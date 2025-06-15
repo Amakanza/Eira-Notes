@@ -114,7 +114,9 @@ class LoginWindow(ctk.CTkFrame):
 
     def check_server_connection(self):
         """Check connection to the server."""
-        asyncio.create_task(self._check_connection_async())
+        asyncio.run_coroutine_threadsafe(
+            self._check_connection_async(), self.master.loop
+        )
 
     async def _check_connection_async(self):
         """Asynchronously check connection to the server."""
@@ -149,7 +151,9 @@ class LoginWindow(ctk.CTkFrame):
         self.status_label.configure(text="")
 
         # Start login process
-        asyncio.create_task(self._login_async(username, password))
+        asyncio.run_coroutine_threadsafe(
+            self._login_async(username, password), self.master.loop
+        )
 
     async def _login_async(self, username: str, password: str):
         """Asynchronously log in to the API."""
