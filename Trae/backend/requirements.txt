@@ -1,0 +1,2779 @@
+# FastAPI and ASGI server
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+email-validator>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.10.0
+psycopg2-binary>=2.9.5
+asyncpg>=0.27.0
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Caching
+redis>=4.5.0
+
+# Storage
+boto3>=1.26.0
+
+# FHIR support
+fhir.resources>=6.5.0
+
+# Testing
+pytest>=7.3.0
+pytest-asyncio>=0.21.0
+
+# Client sync support
+httpx>=0.24.0
+
+# Development
+black>=23.3.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Document generation
+python-docx>=0.8.11
+weasyprint>=59.0
+jinja2>=3.1.2
+
+# GraphQL (optional)
+strawberry-graphql>=0.171.1
+
+# Monitoring and logging
+sentry-sdk>=1.25.0
+python-json-logger>=2.0.7
+
+# Utilities
