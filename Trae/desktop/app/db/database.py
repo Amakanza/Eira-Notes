@@ -16,7 +16,8 @@ logger = logging.getLogger(__name__)
 class Database:
     """Database wrapper that handles local SQLite operations with sync capabilities."""
 
-    def __init__(self, db_path: str = None, api_url: str = None, auth_token: str = None):
+    def __init__(self, db_path: str = None, api_url: str = None, auth_token: str = None, loop: Optional[asyncio.AbstractEventLoop] = None):
+        self.loop = loop
         self.db_path = db_path or settings.DB_PATH
         self.api_url = api_url or settings.API_URL
         
@@ -32,6 +33,7 @@ class Database:
             api_url=self.api_url,
             auth_token=auth_token,
             auto_sync_interval=settings.AUTO_SYNC_INTERVAL,
+            loop=self.loop,
         )
 
     def _init_db(self) -> None:

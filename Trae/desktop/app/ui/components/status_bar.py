@@ -133,7 +133,9 @@ class StatusBar(ctk.CTkFrame):
         self.status_message.configure(text="Syncing...", text_color="blue")
 
         # Start sync process
-        asyncio.create_task(self._sync_async())
+        asyncio.run_coroutine_threadsafe(
+            self._sync_async(), self.master.loop
+        )
 
     async def _sync_async(self):
         """Asynchronously perform sync operation."""

@@ -134,7 +134,9 @@ class MainWindow(ctk.CTkFrame):
     def on_logout(self):
         """Handle logout button click."""
         # Run logout process
-        asyncio.create_task(self._logout_async())
+        asyncio.run_coroutine_threadsafe(
+            self._logout_async(), self.master.loop
+        )
 
     async def _logout_async(self):
         """Asynchronously log out."""

@@ -1,4 +1,5 @@
 import asyncio
+import threading
 import logging
 import os
 import sys
@@ -51,8 +52,14 @@ class EiraDesktopApp(ctk.CTk):
         ctk.set_default_color_theme("blue")
 
         # Initialize the app
-        self.loop = asyncio.get_event_loop()
-        self.loop.run_until_complete(app.initialize())
+        self.loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(self.loop)
+        self.loop_thread = threading.Thread(target=self.loop.run_forever, daemon=True)
+        self.loop_thread.start()
+        asyncio.run_coroutine_threadsafe(app.initialize(), self.loop).result()
+        app.loop = self.loop
+        app.db.loop = self.loop
+        app.db.sync_manager.loop = self.loop
 
         # Show login window if not authenticated, otherwise show main window
         if app.auth_token is None:
@@ -90,8 +97,9 @@ class EiraDesktopApp(ctk.CTk):
     def on_closing(self):
         """Handle application closing."""
         logger.info("Application closing")
-        # Run shutdown tasks
-        self.loop.run_until_complete(app.shutdown())
+        asyncio.run_coroutine_threadsafe(app.shutdown(), self.loop).result()
+        self.loop.call_soon_threadsafe(self.loop.stop)
+        self.loop_thread.join()
         self.destroy()
 
 

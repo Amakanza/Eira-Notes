@@ -36,12 +36,14 @@ class SyncManager:
         db_path: str,
         api_url: str,
         auth_token: Optional[str] = None,
-        auto_sync_interval: int = 60,  # seconds
+        auto_sync_interval: int = 60,  # seconds,
+        loop: Optional[asyncio.AbstractEventLoop] = None,
     ):
         self.db_path = db_path
         self.api_url = api_url
         self.auth_token = auth_token
         self.auto_sync_interval = auto_sync_interval
+        self.loop = loop
         self.is_online = False
         self.sync_task = None
         self._setup_db()
@@ -99,13 +101,21 @@ class SyncManager:
         """Set the online status and trigger sync if coming online."""
         if not self.is_online and is_online:
             logger.info("Device came online, triggering sync")
-            asyncio.create_task(self.sync())
+            if self.loop:
+                asyncio.run_coroutine_threadsafe(self.sync(), self.loop)
+            else:
+                asyncio.create_task(self.sync())
         self.is_online = is_online
 
     def start_auto_sync(self) -> None:
         """Start automatic background synchronization."""
         if self.sync_task is None or self.sync_task.done():
-            self.sync_task = asyncio.create_task(self._auto_sync_loop())
+            if self.loop:
+                self.sync_task = asyncio.run_coroutine_threadsafe(
+                    self._auto_sync_loop(), self.loop
+                )
+            else:
+                self.sync_task = asyncio.create_task(self._auto_sync_loop())
 
     def stop_auto_sync(self) -> None:
         """Stop automatic background synchronization."""
@@ -449,7 +459,10 @@ class SyncManager:
 
         # If we're online, trigger a sync
         if self.is_online:
-            asyncio.create_task(self.sync())
+            if self.loop:
+                asyncio.run_coroutine_threadsafe(self.sync(), self.loop)
+            else:
+                asyncio.create_task(self.sync())
 
         return change_id
 
@@ -526,7 +539,10 @@ class SyncManager:
 
         # If we're online, trigger a sync
         if self.is_online:
-            asyncio.create_task(self.sync())
+            if self.loop:
+                asyncio.run_coroutine_threadsafe(self.sync(), self.loop)
+            else:
+                asyncio.create_task(self.sync())
 
     def clear_synced_changes(self, older_than_days: int = 7) -> int:
         """Clear successfully synced changes older than the specified days."""
