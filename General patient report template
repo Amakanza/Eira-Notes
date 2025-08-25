@@ -1,0 +1,21 @@
+{
+  "patient_info": {
+    "patient_name": "<patient_name>",
+    "date_of_birth": "<date_of_birth>",
+    "medical_aid": "<medical_aid>",
+    "medical_aid_number": "<medical_aid_number>",
+    "occupation": "<occupation>",
+    "physiotherapist": "<physiotherapist>",
+    "referral_diagnosis": "<referral_diagnosis>",
+    "report_date": "<report_date>"
+  },
+  "assessment": "<assessment>",
+  "treatment_plan": "<treatment_plan>",
+  "reassessment": "<reassessment>",
+  "recommendations": "<recommendations>",
+  "sign_off": {
+    "salutation": "<salutation>",
+    "therapist_name": "<therapist_name>",
+    "therapist_credentials": "<therapist_credentials>"
+  }
+}

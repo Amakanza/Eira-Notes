@@ -1,0 +1,52 @@
+{
+  "report_header": {
+    "patient_name": "<patient_name>",
+    "case_number": "<case_number>",
+    "occupation": "<occupation>",
+    "date_of_birth": "<date_of_birth>",
+    "referring_dr": "<referring_dr>",
+    "date_of_initial_ax": "<date_of_initial_ax>",
+    "case_manager": "<case_manager>",
+    "date_of_report": "<date_of_report>",
+    "facility": "<facility>",
+    "physiotherapist": "<physiotherapist>",
+    "diagnosis": "<diagnosis>"
+  },
+  "history": [
+    {
+      "date": "<date_of_initial_assessment>",
+      "text": "<initial_assessment_text>"
+    },
+    {
+      "date": "<date_of_follow_up>",
+      "text": "<follow_up_text>"
+    }
+  ],
+  "investigations_and_special_tests": "<investigations_and_special_tests>",
+  "joint_range_of_motion": [
+    {
+      "joint": "<joint_name>",
+      "initial_rom": "<initial_rom>",
+      "current_rom": "<current_rom>",
+      "comment": "<comment>"
+    }
+  ],
+  "muscle_strength": [
+    {
+      "key_group_or_muscle": "<key_group_or_muscle>",
+      "initial_strength": "<initial_strength>",
+      "current_strength": "<current_strength>",
+      "comment": "<comment>"
+    }
+  ],
+  "activities_of_daily_living": [
+    {
+      "activity": "<activity>",
+      "level_of_independence": "<level_of_independence>",
+      "comment": "<comment>"
+    }
+  ],
+  "any_other_findings": "<any_other_findings>",
+  "physiotherapy_key_goals": "<physiotherapy_key_goals>",
+  "recommendations": "<recommendations>"
+}

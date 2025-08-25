@@ -1,0 +1,75 @@
+{
+  "report_header": {
+    "patient_name": "<patient_name>",
+    "case_number": "<case_number>",
+    "occupation": "<occupation>",
+    "date_of_birth": "<date_of_birth>",
+    "referring_dr": "<referring_dr>",
+    "date_of_initial_ax": "<date_of_initial_ax>",
+    "case_manager": "<case_manager>",
+    "date_of_report": "<date_of_report>",
+    "facility": "<facility>",
+    "physiotherapist": "<physiotherapist>",
+    "diagnosis": "<diagnosis>"
+  },
+  "history": [
+    { "date": "<date_of_initial_assessment>", "text": "<initial_assessment_text>" },
+    { "date": "<date_of_first_reassessment>", "text": "<first_reassessment_text>" },
+    { "date": "<date_of_second_reassessment>", "text": "<second_reassessment_text>" },
+    { "date": "<date_of_third_reassessment>", "text": "<third_reassessment_text>" },
+    { "date": "<date_of_fourth_reassessment>", "text": "<fourth_reassessment_text>" },
+    { "date": "<date_of_fifth_reassessment>", "text": "<fifth_reassessment_text>" },
+    { "date": "<date_of_sixth_reassessment>", "text": "<sixth_reassessment_text>" },
+    { "date": "<date_of_seventh_reassessment>", "text": "<seventh_reassessment_text>" },
+    { "date": "<date_of_eighth_reassessment>", "text": "<eighth_reassessment_text>" }
+  ],
+  "investigations_and_special_tests": "<investigations_and_special_tests>",
+  "joint_range_of_motion": [
+    {
+      "joint": "<joint_name>",
+      "initial_rom": "<initial_rom>",
+      "first_reassessment_rom": "<first_reassessment_rom>",
+      "second_reassessment_rom": "<second_reassessment_rom>",
+      "third_reassessment_rom": "<third_reassessment_rom>",
+      "fourth_reassessment_rom": "<fourth_reassessment_rom>",
+      "fifth_reassessment_rom": "<fifth_reassessment_rom>",
+      "sixth_reassessment_rom": "<sixth_reassessment_rom>",
+      "seventh_reassessment_rom": "<seventh_reassessment_rom>",
+      "eighth_reassessment_rom": "<eighth_reassessment_rom>",
+      "comment": "<comment>"
+    }
+  ],
+  "muscle_strength": [
+    {
+      "key_group_or_muscle": "<key_group_or_muscle>",
+      "initial_strength": "<initial_strength>",
+      "first_reassessment_strength": "<first_reassessment_strength>",
+      "second_reassessment_strength": "<second_reassessment_strength>",
+      "third_reassessment_strength": "<third_reassessment_strength>",
+      "fourth_reassessment_strength": "<fourth_reassessment_strength>",
+      "fifth_reassessment_strength": "<fifth_reassessment_strength>",
+      "sixth_reassessment_strength": "<sixth_reassessment_strength>",
+      "seventh_reassessment_strength": "<seventh_reassessment_strength>",
+      "eighth_reassessment_strength": "<eighth_reassessment_strength>",
+      "comment": "<comment>"
+    }
+  ],
+  "activities_of_daily_living": [
+    {
+      "activity": "<activity>",
+      "initial_level_of_independence": "<initial_level_of_independence>",
+      "first_reassessment_level_of_independence": "<first_reassessment_level_of_independence>",
+      "second_reassessment_level_of_independence": "<second_reassessment_level_of_independence>",
+      "third_reassessment_level_of_independence": "<third_reassessment_level_of_independence>",
+      "fourth_reassessment_level_of_independence": "<fourth_reassessment_level_of_independence>",
+      "fifth_reassessment_level_of_independence": "<fifth_reassessment_level_of_independence>",
+      "sixth_reassessment_level_of_independence": "<sixth_reassessment_level_of_independence>",
+      "seventh_reassessment_level_of_independence": "<seventh_reassessment_level_of_independence>",
+      "eighth_reassessment_level_of_independence": "<eighth_reassessment_level_of_independence>",
+      "comment": "<comment>"
+    }
+  ],
+  "any_other_findings": "<any_other_findings>",
+  "physiotherapy_key_goals": "<physiotherapy_key_goals>",
+  "recommendations": "<recommendations>"
+}
